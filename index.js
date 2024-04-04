@@ -1,6 +1,6 @@
 
 const express = require('express');
-const cors=require("cors");
+const cors=require("no-cors");
 require('./db/config');
 const User = require("./db/User");
 const Book = require("./db/Book");
